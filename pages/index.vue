@@ -13,7 +13,7 @@
           rel="noopener noreferrer"
           class="button--green"
         >
-          Twitter
+          Github
         </a>
         <a
           href="https://twitter.com/techspeakersuni"
@@ -21,7 +21,7 @@
           rel="noopener noreferrer"
           class="button--grey"
         >
-          GitHub
+          Twitter
         </a>
       </div>
     </div>
