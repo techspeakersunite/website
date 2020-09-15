@@ -1,19 +1,22 @@
 <template>
-  <div class="container">
+  <div class="page-wrapper">
     <div>
       <Logo />
-      <h1 class="title">techspeakersunite</h1>
+      <p class="subtitle">
+        A place where tech speakers gather to share experiences and resources in
+        order to foster a strong and healthy community.
+      </p>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://github.com/techspeakersunite"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          Twitter
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://twitter.com/techspeakersuni"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
@@ -35,13 +38,15 @@ export default {}
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
+.page-wrapper {
   margin: 0 auto;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #101010;
 }
 
 .title {
@@ -55,11 +60,20 @@ export default {}
 }
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #ccc;
   word-spacing: 5px;
   padding-bottom: 15px;
+  max-width: 50ch;
+  margin: 0 auto 1rem;
+}
+
+@media (min-width: 768px) {
+  .subtitle {
+    font-size: 1.5rem;
+    max-width: 70ch;
+  }
 }
 
 .links {

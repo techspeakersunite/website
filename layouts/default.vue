@@ -27,29 +27,29 @@ html {
 .button--green {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border: 1px solid #71e0c6;
+  color: #71e0c6;
   text-decoration: none;
   padding: 10px 30px;
 }
 
 .button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
+  color: #222;
+  background-color: #71e0c6;
 }
 
 .button--grey {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 2px solid #6c94be;
+  color: #6c94be;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
 }
 
 .button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+  color: #222;
+  background-color: #6c94be;
 }
 </style>
