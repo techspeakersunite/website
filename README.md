@@ -1,6 +1,13 @@
-# techspeakersunite
+# TechSpeakersUnite
 
-## Build Setup
+## Tech Stack
+
+- [NuxtJS](https://nuxtjs.org/)
+- [Nuxt Content](https://content.nuxtjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Netlify](https://www.netlify.com/)
+
+## Local Environment Setup
 
 ```bash
 # install dependencies
